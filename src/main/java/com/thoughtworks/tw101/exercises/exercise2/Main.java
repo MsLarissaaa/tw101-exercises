@@ -7,7 +7,11 @@ public class Main {
     public static void main(String[] args) {
 
         Accumulator accumulator = new Accumulator();
-
-
+        accumulator.count = 0;
+        for(int i = 0; i < 5; i++) {
+            accumulator.increment();
+        }
+        int total = accumulator.total();
+        System.out.println("You called the increment method a total of " + total + " times.");
     }
 }
