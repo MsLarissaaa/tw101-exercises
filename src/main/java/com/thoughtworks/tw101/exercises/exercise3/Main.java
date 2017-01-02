@@ -11,5 +11,17 @@ public class Main {
         Integer sum = oddSum.of(1, 100);
 
         System.out.println(sum);
+
+        OddSum oddSum2 = new OddSum();
+
+        Integer sum2 = oddSum2.of(8, 3);
+
+        System.out.println(sum2);
+
+        OddSum oddSum3 = new OddSum();
+
+        Integer sum3 = oddSum3.of(2, -5);
+
+        System.out.println(sum3);
     }
 }
